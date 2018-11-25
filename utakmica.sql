@@ -67,3 +67,7 @@ select * from stadion where sifra=2;
 
 update stadion set pocetak='2018-10-11 16:00:00'
 where sifra=2;
+
+update stadion set domacin=4 , gost=3 where sifra=2;
+
+update stadion set naziv='Lisabon' where sifra=2;
