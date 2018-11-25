@@ -49,3 +49,21 @@ insert into igrac (sifra,ime,prezime,momcad) values
 (null,'	Cristiano','Ronaldo',4);
 
 update stadion set pocetak='2018-11-18 19:30:00';
+
+delete from igrac where sifra=2;
+
+insert into igrac (sifra,ime,prezime,momcad) values
+(2,'Joe','Hart',1);
+
+select * from igrac where sifra=4;
+
+update igrac set ime='Ivan', prezime='Perišić'
+where sifra=4; 
+
+
+select * from stadion;
+
+select * from stadion where sifra=2;
+
+update stadion set pocetak='2018-10-11 16:00:00'
+where sifra=2;
